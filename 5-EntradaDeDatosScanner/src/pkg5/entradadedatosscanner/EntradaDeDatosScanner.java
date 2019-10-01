@@ -1,4 +1,4 @@
-package entradadedatosscanner;
+package pkg5.entradadedatosscanner;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class EntradaDeDatosScanner {
 
     public static void main(String[] args) {
-        
         String nombre;
         int a = 0;
         int b = 0;
@@ -29,7 +28,6 @@ public class EntradaDeDatosScanner {
         c = a + b;
         
         System.out.println(nombre + " El resultado de la suma es : " + c );
-
     }
     
 }
