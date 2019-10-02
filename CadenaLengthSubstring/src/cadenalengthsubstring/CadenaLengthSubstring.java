@@ -22,7 +22,7 @@ public class CadenaLengthSubstring {
         System.out.print("¿Hasta que parte deseas obtener la nueva? :");
         hasta = entrada.nextInt();
         
-        System.out.println("Nueva cadena: " + cadena.subSequence(desde, hasta));
+        System.out.println("Nueva cadena: " + cadena.substring(desde, hasta));
     }
     
 }
