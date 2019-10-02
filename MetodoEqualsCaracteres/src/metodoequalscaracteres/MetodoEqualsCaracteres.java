@@ -26,7 +26,7 @@ public class MetodoEqualsCaracteres {
             System.out.println("Por favor, ingrese el segundo nombre");
             nombre2 = entrada.nextLine();
 
-            if (nombre1.equals(nombre2)) {
+            if (nombre1.equalsIgnoreCase(nombre2)) {
                 System.out.println("Los nombres son iguales");
             } else {
                 System.out.println("Los nombres son diferentes");
