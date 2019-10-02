@@ -49,7 +49,7 @@ public class DoceEjercicio2ForWhileDoWhile {
             } else {
                 System.out.print(i + ",");
                 System.out.print(j);
-            }
+            }   
             i++;
             j--;
         } while (i <= 5);
